@@ -49,6 +49,8 @@ class App extends React.Component {
     }
     return (
       <div className='App'>
+        <h1>My first react app</h1>
+        <p>Student List</p>
         <div>
           <button onClick={this.showHideStudents}>Show / Hide Students</button>
         </div>
